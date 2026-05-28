@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Smart Life</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F83TF0FJEY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-F83TF0FJEY');
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .container { max-width: 400px; }
+    .logo { font-size: 32px; font-weight: 700; color: #00B09B; margin-bottom: 8px; }
+    .tagline { font-size: 16px; color: #888; margin-bottom: 48px; }
+    .badges { display: flex; flex-direction: column; gap: 16px; align-items: center; }
+    .badge img { height: 52px; }
+    .note { margin-top: 32px; font-size: 13px; color: #555; }
+  </style>
+
+  <script>
+    const ua = navigator.userAgent;
+    if (/iPhone|iPad|iPod/i.test(ua)) {
+      window.location.href = "https://apps.apple.com/app/smart-life-smart-living/id1115101477";
+    } else if (/Android/i.test(ua)) {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.tuya.smartlife";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Evamp</div>
+    <div class="tagline">EV charging, simplified.</div>
+    <div class="badges">
+      <a href="https://apps.apple.com/app/smart-life-smart-living/id1115101477">
+        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.tuya.smartlife">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+      </a>
+    </div>
+    <p class="note">Open this link on your phone to be redirected automatically.</p>
+  </div>
+</body>
+</html>
